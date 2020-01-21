@@ -6,3 +6,5 @@ Stack data structure written in Haskell, using a list. Currently it "works", the
 push -> puts a value on top of the Stack
 top -> returns the Just top value of the Stack, Nothing if its empty
 pop -> removes the top value of the Stack, does nothing if its empty
+size -> returns the number of elements in the stack
+fromJust -> returns the value of a Just a, and an error if its Nothing
